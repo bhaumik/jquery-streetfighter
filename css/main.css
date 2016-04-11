@@ -4,17 +4,17 @@ body {
 
 .main {
 	background-color: white;
-  	margin-top: 110px;
-  	padding-left: 100px;
-  	min-width: 1200px;
-  	height: 500px;
-  	position: relative;
-  	z-index: 1;
+	margin-top: 110px;
+	padding-left: 0px;
+	min-width: 1200px;
+	height: 500px;
+	position: relative;
+	z-index: 1;
 }
 
 .ryu {
 	float: left;
-	width: 659px;
+	width: 529px;
 	height: 494px;
 }
 
@@ -58,3 +58,26 @@ body {
   top: 170px;
   left: 600px;
 }
+
+/*================== Angry Ryu =============================*/
+
+.angry-ryu {
+  float: right;
+  transform: scaleX(-1);
+  -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+}
+
+.angry-ryu > .hadouken {
+  left: 473px;
+}
+
+
+
+
+
+
+
+
+
+
